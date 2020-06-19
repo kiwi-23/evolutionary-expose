@@ -1,0 +1,61 @@
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <title>the evolutionary exposé</title>
+
+  <!-- P5.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.dom.min.js"></script>
+
+  <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
+
+  <script type="text/javascript" src="sketch.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+
+  <div class="row">
+    <div class="col-sm-3"></div>
+    <div class="col-sm-6">
+      <h1 id="title">the evolutionary exposé</h1>
+      <div id="timeframe">
+        <button id="hunting" class="period">the hunting</button>
+        <button id="cooking" class="period">the cooking</button>
+        <button id="farming" class="period">the farming</button>
+      </div>
+      <div id="sandbox-container">
+        <div id="sandbox"></div>
+        <div class="color_key">
+          <div id="human_key">
+            <div id="human_sq"></div><span class="key">human</span>
+          </div>
+          <div id="predator_key">
+            <div id="predator_sq"></div><span class="key">predator</span>
+          </div>
+          <div id="prey_key">
+            <div id="prey_sq"></div><span class="key">prey</span>
+          </div>
+          <div id="time_lapse">
+            <span class="key">time lapsed</span><br><div id="generations"></div>
+          </div>
+        </div>
+      </div>
+      <button id="stop" class="button">stop</button>
+      <button id="run" class="button">run</button>
+      <button id="refresh" class="button">refresh</button>
+      <div id="slider_1"><span class="label">food chain</span></div>
+      <div id="slider_2"><span class="label">procreation rate</span></div>
+      <div id="slider_3"><span class="label">mortality rate</span></div>
+    </div>
+
+  </body>
+  </html>
