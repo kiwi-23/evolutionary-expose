@@ -1,3 +1,3 @@
 # evolutionary_expose
 
-Repo for https://mya-kiwi.com/evolutionary
+Repo for mya-kiwi.com/evolutionary
